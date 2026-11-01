@@ -1,0 +1,17 @@
+{
+  "domain": "dispatcharr_info",
+  "name": "Dispatcharr Info",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [
+    "http",
+    "frontend",
+    "lovelace"
+  ],
+  "documentation": "https://github.com/OWNER/ha-dispatcharr-info",
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/OWNER/ha-dispatcharr-info/issues",
+  "requirements": [],
+  "version": "1.0.0"
+}

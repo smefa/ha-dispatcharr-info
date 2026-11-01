@@ -1,0 +1,50 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Dispatcharr",
+        "description": "Use the API key of an admin user (Dispatcharr user settings). /proxy/stats/ and /api/accounts/users/ are admin-only.",
+        "data": {
+          "host": "Host",
+          "port": "Port",
+          "api_key": "API key"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to Dispatcharr",
+      "invalid_auth": "Invalid API key, or the user is not an admin"
+    },
+    "abort": {
+      "already_configured": "This Dispatcharr server is already configured"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "epg_errors": {
+        "name": "EPG sources in error"
+      },
+      "active_channels": {
+        "name": "Active channels"
+      },
+      "live_viewers": {
+        "name": "Live viewers"
+      },
+      "vod_connections": {
+        "name": "VOD connections"
+      },
+      "catchup_sessions": {
+        "name": "Catch-up sessions"
+      },
+      "users": {
+        "name": "Users"
+      },
+      "viewing_sessions": {
+        "name": "Viewing sessions"
+      },
+      "max_streams": {
+        "name": "Max streams"
+      }
+    }
+  }
+}

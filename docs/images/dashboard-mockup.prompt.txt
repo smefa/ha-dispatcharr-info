@@ -1,0 +1,14 @@
+Use case: ui-mockup.
+Asset type: GitHub README dashboard illustration for the Home Assistant custom integration "Dispatcharr Info".
+Create a high-fidelity flat desktop screenshot-style mockup of its existing dashboard, landscape 1536x1024. Crisp readable UI text, Home Assistant dark theme: charcoal #111 background, dark gray #1c1c1c rounded cards, white primary text, muted gray labels, restrained cyan/teal/purple chart accents. Straight-on UI only, no device frame, no perspective, no decorative photography, no marketing headline.
+Layout: slim top app bar with menu icon and title "Dispatcharr". Below it a balanced two-column dashboard with comfortable 24px margins. Left column is the single Dispatcharr overview card. Right column has three vertically stacked chart cards.
+Left card header: television icon, "Dispatcharr", subtitle "2 live channels · 3 viewers · 1 VOD", small green "streaming" status badge and a small settings cog at top right. Four small metric boxes: "VIEWERS" value "3", "CHANNELS" value "2", "VOD" value "1", "CATCH-UP" value "0".
+Next section label "STREAMS IN USE": an eight-segment slim horizontal bar with two teal live segments, one purple VOD segment and five muted empty segments. Small legend "Eurosport 1  2", "BBC One  1", "VOD: The Journey  1", and "5 of 8 free".
+Next section label "NOW WATCHING". Four compact rows with small colorful circular initial avatars. IMPORTANT: username and channel must be on the SAME top row, programme title followed by IP and client must be on the SAME second row. No separate programme airtime line.
+Row 1 avatar A, top "Alice · Eurosport 1", second line "FIA WTCR · 192.0.2.10 · TiviMate".
+Row 2 avatar B, top "Bob · Eurosport 1", second line "FIA WTCR · 192.0.2.11 · VLC".
+Row 3 avatar C, top "Charlie · BBC One", second line "Planet Earth · 192.0.2.12 · Kodi".
+Row 4 avatar D, top "Dana  VOD · The Journey", second line "192.0.2.13 · VLC". VOD is a small purple badge.
+Right chart cards: first title "Last 24 hours", multi-series step line graph for viewers, channels and VOD, with small legend and time axis. Second title "Peak per day", 30-day grouped bar chart for viewers and channels. Third title "Average load, hourly", 7-day multiseries line chart for viewers, VOD and catch-up. Use plausible low integer stream counts with consistent restrained colors, fine grid lines, readable axes.
+At bottom of overall image add a subtle caption "Illustrative mockup · Fictional data".
+Keep UI professional and faithful to a real Home Assistant dashboard. No Plex content or Plex branding. No Libraries or Recently added sections. No real server URLs, real user names, authentication information or private IP addresses. Do not add features beyond the described controls.

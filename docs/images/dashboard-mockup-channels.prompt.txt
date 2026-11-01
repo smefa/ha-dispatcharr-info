@@ -1,0 +1,7 @@
+Edit this fictional Dispatcharr dashboard README mockup. Preserve the image size, dark theme, layout, all three right-hand graphs, and all other text and details. Make only these changes on the left dashboard card:
+1. Replace every occurrence of the channel name "Eurosport 1" with the invented name "Orbit Sports". This includes the stream legend and both Alice and Bob's viewing rows.
+2. Replace every occurrence of "BBC One" with the invented name "Aurora TV". This includes the legend and Charlie's viewing row.
+3. Replace the stream capacity bar with EXACTLY FIVE equal rectangular segments total. Segment 1 is teal for Orbit Sports, segment 2 is blue for Aurora TV, segment 3 is purple for the VOD stream, segment 4 is dark gray and free, segment 5 is dark gray and free. There must be exactly 3 colored segments and 2 gray segments. Alice and Bob share one live channel, so they occupy one slot together.
+4. Replace capacity text "5 of 8 free" with exactly "2 of 5 free".
+The stream legend should read "Orbit Sports  2", "Aurora TV  1", "VOD: The Journey  1", "2 of 5 free".
+Keep Viewers=3, Channels=2, VOD=1, Catch-up=0. Keep compact username-and-channel rows, fictional IPs, programme lines, settings cog and fictional-data caption. No other changes.
