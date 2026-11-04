@@ -52,7 +52,6 @@ class DispatcharrConfigFlow(ConfigFlow, domain=DOMAIN):
                 vol.Required(CONF_HOST): str,
                 vol.Required(CONF_PORT, default=DEFAULT_PORT): int,
                 vol.Required(CONF_API_KEY): str,
-                vol.Required(default=True): bool,
             }
         )
         return self.async_show_form(
